@@ -117,7 +117,7 @@ Answer: October month
 
 Step 5 (optional): Forecast revenue by using time series mode
  
-Though option, this activity was also performed successfully and based on the results following conclustion was drawn.
+Though this section was optional, this activity was also performed successfully and based on the results following conclustion was drawn.
 
 Based on the results above - the total expected sales next quarter would be most likely 6920 million dollars which will be approximately 6.9 Billion Dollars with the best case scenario being 8 billion and the worst case scenario being 5.7 billion dollars.
     
