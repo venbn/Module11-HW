@@ -48,11 +48,11 @@ In this section, the seasonality of Search Trends are calcuated and following wa
 
 2.2 Used hvplot.heatmap to visualize the hourly search traffic for day of the week.
 
-    !SearchTrends_DayofWeek_heatmap.png
+![](SearchTrends_DayofWeek_heatmap.png)
 
 2.3 Group the data by week of the year to identify if the search traffic has increased during the winter months from month 40 to 52
 
-    !TrafficSearchTrends_DayofWeek.png
+![](SearchTrends_WeekofYear.png)
 
 Conclusion : Yes - the search traffic did increase during the winter months
 
@@ -62,54 +62,56 @@ Following analysis was done to analyze stock price patterns
 
 3.1 Plot the Stock price data to see the trends
 
-    !Plot_StockPriceData.png
+![](Plot_StockPriceData.png)
 
 3.2 Concatenate the Stock price data and the search trends data into one dataframe to compareand plot the search trends and closing prices of the first half of 2020
 
-    Following was the conclustion..
+![](Variable_SearchTrends.png)
 
-    The understanding is that the Search Trends stayed within the tight range through out the period with a short uptick on 5/5/2020 whereas the 
-    Closing price was fluctuating - was trending down from the later part of 2nd month until the 4th month of 2020 and 
-    has shown a strong uptrend from 4/2020 through out the period. 
+![](Variable_Close.png)
 
-3.3 Calculate Stock Volatility (to identify the volatility of stocks), Lagged Search Trends (to identify the unsual patterns in search trends), 
-    Hourly Stock Returns and perform correlation on the 3
+Following was the conclustion..
 
-    !Correlation
+The understanding is that the Search Trends stayed within the tight range through out the period with a short uptick on 5/5/2020 whereas the Closing price was fluctuating - was trending down from the later part of 2nd month until the 4th month of 2020 and has shown a strong uptrend from 4/2020 through out the period. 
 
-    Following can be concluded from the derived correlation data..
+3.3 Calculate Stock Volatility (to identify the volatility of stocks), Lagged Search Trends (to identify the unsual patterns in search trends), Hourly Stock Returns and perform correlation on the 3
 
-    The above correlation table suggests that there is a weak negative correlation between Stock Volatility and Lagged Search Trends and a 
-    weak negative correlation between Lagged Search Trends and Stock Price Returns. Also there is a weak positive correlation between Stock Volatility and Hourly Stock Returns 
+![](Correlation.png)
+
+Following can be concluded from the derived correlation data..
+
+The above correlation table suggests that there is a weak negative correlation between Stock Volatility and Lagged Search Trends and a 
+weak negative correlation between Lagged Search Trends and Stock Price Returns. Also there is a weak positive correlation between Stock Volatility and Hourly Stock Returns 
 
 Step 4: Create a time series model with Prophet
 
 4.1  This section perform even deeper and finer data analysis using Prophet model
         
-        !PopularityTrend-1
-        !PopularityTrend-1
+![](PopularityTrend-1.png)
+![](PopularityTrend-2.png)
 
-        Produced popularity forecasts suggests that the popularity of MercadoLibre is decreasing going into 2020
+Produced popularity forecasts suggests that the popularity of MercadoLibre is decreasing going into 2020
 
 4.2 Plot the different time series components to analyze upper, lower, best and worst case scenarios of search trends
 
-    !yhat-lower_yhat-upper.png
-    !PlotComponents-1
-    !PlotComponents-2
+![](yhat-lower_yhat-upper.png)
 
-    Conclusion..
+![](PlotComponents-1.png)
+![](PlotComponents-2.png)
 
-    Question: What time of day exhibits the greatest popularity?
+Conclusion..
 
-    Answer: Most popularity is seen at 00:00:00
+Question: What time of day exhibits the greatest popularity?
 
-    Question: Which day of week gets the most search traffic?
+Answer: Most popularity is seen at 00:00:00
 
-    Answer: Tuesday
+Question: Which day of week gets the most search traffic?
 
-    Question: What's the lowest point for search traffic in the calendar year?
+Answer: Tuesday
 
-    Answer: October month
+Question: What's the lowest point for search traffic in the calendar year?
+
+Answer: October month
 
 Step 5 (optional): Forecast revenue by using time series mode
  
