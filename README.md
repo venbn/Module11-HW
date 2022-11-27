@@ -28,7 +28,7 @@ Following are the steps performed to analyze the Google search traffic trends
 
 1.1 Analyze and plot the search traffic for the May2020 which is the month when MercadoLibre released its financial results
 
-    ![plot](.May2020_TrafficSearchTrends.png)
+    ![plot](May2020_TrafficSearchTrends.png)
 
     And, finally calculate the total value of search traffic for the May2020 which was found to be : 38181 
 
