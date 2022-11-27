@@ -96,6 +96,8 @@ Produced popularity forecasts suggests that the popularity of MercadoLibre is de
 
 ![](yhat-lower_yhat-upper.png)
 
+Visualize the forecast using plot_components
+
 ![](PlotComponents-1.png)
 ![](PlotComponents-2.png)
 
