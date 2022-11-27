@@ -28,8 +28,7 @@ Following are the steps performed to analyze the Google search traffic trends
 
 1.1 Analyze and plot the search traffic for the May2020 which is the month when MercadoLibre released its financial results.
 
-    ![alt text]
-     (May2020_TrafficSearchTrends.png)
+![](May2020_TrafficSearchTrends.png)
 
     And, finally calculate the total value of search traffic for the May2020 which was found to be : 38181 
 
@@ -45,7 +44,7 @@ In this section, the seasonality of Search Trends are calcuated and following wa
 
 2.1 Calculate and plot the hourly search traffic trend to identify the average search traffic for a day of the week.
 
-    !TrafficSearchTrends_DayofWeek.png
+![](TrafficSearchTrends_DayofWeek.png)
 
 2.2 Used hvplot.heatmap to visualize the hourly search traffic for day of the week.
 
