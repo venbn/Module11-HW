@@ -54,7 +54,7 @@ In this section, the seasonality of Search Trends are calcuated and following wa
 
 ![](SearchTrends_WeekofYear.png)
 
-Conclusion : Yes - the search traffic did increase during the winter months
+Conclusion : Yes - the search traffic did increase during the winter months just after 40th month until 50th month and was heading down just after 50th month through to 52nd month
 
 Step 3: Relate the search traffic to stock price patterns
 
